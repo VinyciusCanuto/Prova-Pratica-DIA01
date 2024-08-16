@@ -41,7 +41,7 @@ export const postPalestrante = (request, response) => {
             } catch(error){
                 console.error(error)
             }
-
+            
         })
         response.status(201).json({message:"Palestrante cadastrado com sucesso!"})
     })
